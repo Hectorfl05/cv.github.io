@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Perfil y proyectos de Héctor Flores. Desarrollo full-stack, arquitectura de backend e infraestructura cloud.">
+<meta name="theme-color" content="#f4f8ff">
+<title>Héctor Flores — Software Engineer</title>
+<script src="theme.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="wrap"><nav aria-label="Navegación principal"><a class="logo" href="#inicio">hf<span>®</span></a><div class="nav-links"><a href="#sobre-mi">Sobre mí</a><a href="#proyectos">Proyectos</a><a class="nav-contact" href="#contacto">Contacto <span>↗</span></a><button class="theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" hidden><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Oscuro</span></button></div></nav></header>
+<main id="contenido">
+<section class="hero wrap" id="inicio">
+<div class="hero-copy">
+  <p class="eyebrow"><span class="dot"></span> INGENIERÍA DE SOFTWARE & FULL-STACK · GUATEMALA</p>
+  <h1>Arquitectura sólida.<br>Código testeado.<br><span>Sistemas escalables.</span></h1>
+  <p class="intro">Hola, soy Héctor Flores. Estudiante de Ingeniería en Informática y Sistemas enfocado en la construcción de
+    sistemas completos y aplicaciones web sostenibles que faciliten la vida de los usuarios.</p>
+  <a class="button" href="#proyectos">Explora mis proyectos <span>↗</span></a>
+</div>
+<div class="hero-art" aria-label="Ilustración de un espacio de trabajo de desarrollo">
+  <div class="orbit orbit-one"></div>
+  <div class="orbit orbit-two"></div>
+  <span class="art-star" aria-hidden="true">✳</span>
+  <div class="code-window">
+    <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>system-core.ts</span><span>↗</span></div>
+    <div class="code-body">
+      <span class="code-comment">// Criterio de arquitectura y fiabilidad.</span>
+      <p><span class="purple">interface</span> ServiceConfig {</p>
+      <p class="indent">architecture: <span class="green">'microservices'</span>,</p>
+      <p class="indent">database: <span class="green">'PostgreSQL'</span>,</p>
+      <p class="indent">testing: <span class="green">'unit & mutation'</span></p>
+      <p>};</p>
+      <p class="code-last"><span class="purple">deploy</span>(gkeCluster);<span class="cursor"></span></p>
+    </div>
+    <div class="window-bottom"><span><i class="dot"></i> Compilado y listo</span><span>UTF-8</span></div>
+  </div>
+  <div class="art-label"><span>⌘</span> Rigor técnico.<br>Diseñado para escalar.</div>
+  <span class="art-caption">ANALIZAR. ARQUITECTAR. DESPLEGAR.</span>
+</div>
+<div class="hero-bottom"><span>Compromiso con el código limpio y la infraestructura reproducible.</span><a href="#sobre-mi">Sigue explorando <span>↓</span></a></div>
+</section>
+
+<div class="stack-strip">
+  <div class="wrap">
+    <span>STACK PRINCIPAL</span>
+    <p><i>✳</i> Python/FastAPI <i>✳</i> React / TypeScript <i>✳</i> PostgreSQL <i>✳</i> Docker & Kubernetes <i>✳</i> GCP</p>
+  </div>
+</div>
+
+<section class="section wrap about" id="sobre-mi">
+  <div>
+    <p class="eyebrow">01 / SOBRE MÍ</p>
+    <h2>Fundamentos sólidos.<br>Práctica <em>en producción.</em></h2>
+  </div>
+  <div class="about-copy">
+    <p>Me enfoco en el ciclo completo de la ingeniería de software: desde el diseño de esquemas relacionales eficientes y APIs REST estructuradas, hasta la automatización de pruebas y el despliegue en contenedores.</p>
+    <p>Combino mi formación universitaria con experiencia en entornos reales de startups, priorizando siempre la observabilidad, la tipificación estricta y la mantenibilidad del código a largo plazo.</p>
+    <div class="about-tags">
+      <span>Microservicios y Docker</span>
+      <span>Testing & Calidad de Código</span>
+      <span>Modelado Relacional</span>
+      <span>Cloud Deployments (GCP)</span>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap work" id="proyectos">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">02 / PROYECTOS TÉCNICOS</p>
+      <h2>Ingeniería aplicada <em>y arquitectura.</em></h2>
+    </div>
+    <p>Sistemas implementados con foco en rendimiento,<br>pruebas automatizadas e infraestructura.</p>
+  </div>
+  <div class="projects">
+    <article class="project">
+      <div class="project-art project-blue">
+        <div class="project-top"><span>ENTERPRISE BACKEND & CRM</span><span>01 ↗</span></div>
+        <img src="images/project-1.svg" alt="Arquitectura del CRM para gestión de prospectos" loading="lazy">
+      </div>
+      <div class="project-title"><h3>CRM & Pipeline de Admisiones</h3><span aria-hidden="true">↗</span></div>
+      <p>Infraestructura backend y base de datos relacional para la gestión centralizada de más de 500 prospectos y trazabilidad del ciclo de admisiones escolar.</p>
+      <div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>Cloud Run</span><span>React</span></div>
+    </article>
+
+    <article class="project">
+      <div class="project-art project-periwinkle">
+        <div class="project-top"><span>CLOUD & INFRASTRUCTURE</span><span>02 ↗</span></div>
+        <img src="images/project-2.svg" alt="Diagrama de clúster Kubernetes y Terraform" loading="lazy">
+      </div>
+      <div class="project-title"><h3>Orquestación de Microservicios en GKE</h3><span aria-hidden="true">↗</span></div>
+      <p>Aprovisionamiento de infraestructura como código (IaC) para un clúster multi-nodo en Google Cloud, gestionando enrutamiento con Nginx y aislamiento con contenedores.</p>
+      <div class="tags"><span>Kubernetes</span><span>Terraform</span><span>GCP</span><span>Docker</span></div>
+    </article>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap contact-inner">
+    <p class="eyebrow">03 / CONTACTO & RED</p>
+    <div class="contact-row">
+      <h2>Conectemos para hablar<br><em>de ingeniería y tecnología.</em></h2>
+      <a class="contact-arrow" href="mailto:tu-correo@dominio.com" aria-label="Enviar correo electrónico a Héctor Flores">↗</a>
+    </div>
+    <div class="contact-bottom">
+      <p>Abierto a intercambiar perspectivas sobre desarrollo de software,<br>proyectos open-source y oportunidades profesionales.</p>
+      <a href="mailto:tu-correo@dominio.com">tu-correo@dominio.com ↗</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <a class="logo" href="#inicio">hf<span>®</span></a>
+  <p>© 2026 Héctor Flores · Ingeniería de Software</p>
+  <a href="#inicio">Volver arriba ↑</a>
+</footer>
+</body>
+</html>
